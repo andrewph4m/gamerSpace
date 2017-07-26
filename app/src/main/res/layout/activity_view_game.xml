@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="edu.monash.gamerspace.Activity.ViewGameActivity">
+
+        <ImageView
+            android:id="@+id/gameImgView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@mipmap/action"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/gamePriceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="24sp"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/gameImgView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/genreText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genre:"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/publisherText"
+            android:layout_alignStart="@+id/publisherText" />
+
+        <TextView
+            android:id="@+id/publisherText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Publisher:"
+            android:layout_below="@+id/gameAvailTextView"
+            android:layout_alignStart="@+id/descTextView"
+            android:layout_marginTop="38dp" />
+
+        <TextView
+            android:id="@+id/gameAvailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="TextView"
+            android:textStyle="bold"
+            android:layout_below="@+id/gamePriceTextView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/gameVendorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/gameAvailTextView"
+            android:layout_below="@+id/gameAvailTextView"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descTextView"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="TextView"
+            android:layout_below="@+id/genreText"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/gameGenreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_alignBaseline="@+id/genreText"
+            android:layout_marginTop="25dp"
+            android:layout_alignBottom="@+id/genreText"
+            android:layout_alignStart="@+id/gameVendorTextView" />
+
+        <TextView
+            android:id="@+id/gamePubTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_alignBaseline="@+id/publisherText"
+            android:layout_alignBottom="@+id/publisherText"
+            android:layout_alignStart="@+id/gameVendorTextView" />
+
+    </RelativeLayout>
+
+</ScrollView>

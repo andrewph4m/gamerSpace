@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "162233960695",
+    "firebase_url": "https://gamerspace-67229.firebaseio.com",
+    "project_id": "gamerspace-67229",
+    "storage_bucket": "gamerspace-67229.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162233960695:android:96c4e5162e35710c",
+        "android_client_info": {
+          "package_name": "edu.monash.gamerspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162233960695-qp4bn5p0ucosvvhgjh6gth8d5171j989.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.monash.gamerspace",
+            "certificate_hash": "abefdad878be669e5f63c7ea755e990df5e9e531"
+          }
+        },
+        {
+          "client_id": "162233960695-d6bdl6flmh6d1gdmk3blu9kdu9isabdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXlavttyNtPCtID7DgELv0cTDELzXrPGw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162233960695-d6bdl6flmh6d1gdmk3blu9kdu9isabdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/gamePriceTextView"
+        android:layout_alignBottom="@+id/gamePriceTextView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/gamePriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:layout_toEndOf="@+id/nameTextView"
+        android:text="TextView"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/availTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTextView"
+        android:layout_toEndOf="@+id/nameTextView"
+        android:text="TextView"
+        android:layout_alignBottom="@+id/publisherTextView" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/publisherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:layout_below="@+id/nameTextView"
+        android:layout_alignStart="@+id/nameTextView"
+        android:layout_toStartOf="@+id/availTextView" />
+
+    <TextView
+        android:id="@+id/gameGenreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="TextView"
+        android:layout_below="@+id/publisherTextView"
+        android:layout_alignStart="@+id/publisherTextView" />
+
+    <ImageView
+        android:id="@+id/genreImageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@mipmap/action"
+        android:layout_marginStart="11dp"
+        android:layout_alignTop="@+id/nameTextView"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
